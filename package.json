@@ -1,0 +1,24 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "This is test directory",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukhdip4444/project_2.git"
+  },
+  "author": "Sukhdip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukhdip4444/project_2/issues"
+  },
+  "homepage": "https://github.com/sukhdip4444/project_2#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
