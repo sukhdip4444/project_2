@@ -1,3 +1,14 @@
 body{
   background-color: #D9D7D7;
 }
+
+.jumbotron,footer{
+  background: #2C2759;
+  color: floralwhite;
+
+}
+
+.row-space{
+  margin-top:70px;
+  margin-bottom: 50px;
+}
