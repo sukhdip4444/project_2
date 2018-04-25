@@ -4,7 +4,7 @@ body{
   z-index:0;
 }
 
-.jumbotron,footer{
+.jumbotron,.footer{
   background: #2C4459;
   color: floralwhite;
 
@@ -22,4 +22,8 @@ body{
 
 #footer-padding{
   padding-top: 30px;
+}
+.card-header,.thead-custom{
+  background-color: #1D2F40 !important;
+  color: white
 }
