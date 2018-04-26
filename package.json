@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/sukhdip4444/project_2#readme",
   "devDependencies": {
+    "hoek": "^5.0.3",
     "lite-server": "^2.3.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.2",
