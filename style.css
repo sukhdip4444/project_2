@@ -55,3 +55,16 @@ height: 300px;
   position: absolute;
   bottom: 0px;
 }
+
+.modal-header{
+  background-color: #1D2F40;
+  color: white;
+}
+
+.modal-body{
+  background-color: #D9D7D7;
+}
+
+.close{
+  color:white;
+}
