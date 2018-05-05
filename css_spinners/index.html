@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <h2>Welcome to website</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores quos aspernatur doloribus dicta sit impedit
+      magni tenetur, vero dolorem!</p>
+  </div>
+
+  <script>
+    document.querySelector(".main p").style.display = "none";
+    document.querySelector(".main").classList.add("spinner-2");
+
+    // Mimic Server Request
+    setTimeout(() => {
+      document.querySelector(".main").classList.remove("spinner-2");
+      document.querySelector(".main p").style.display = "block";
+    }, 4000);
+  </script>
+</body>
+
+</html>
